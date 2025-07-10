@@ -1,0 +1,139 @@
+{
+  "walletId": "customer_wallet_alice",
+  "preferences": {
+    "defaultPrivacyLevel": "selective",
+    "autoAcceptCredentials": false,
+    "enableZeroKnowledgeProofs": true
+  },
+  "dids": [
+    {
+      "id": "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a",
+      "method": "veritoken-customer",
+      "network": "mainnet",
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEALelgu8ZtjAEkgddJK4NaAcjkZfoYp/yJDwRmRCLu5Qk=\n-----END PUBLIC KEY-----\n",
+      "document": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          "https://w3id.org/security/suites/ed25519-2020/v1",
+          "https://veritoken.org/marketplace/customer/v1"
+        ],
+        "id": "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a",
+        "controller": "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a",
+        "created": "2025-07-09T20:38:15.528Z",
+        "updated": "2025-07-09T20:38:15.528Z",
+        "verificationMethod": [
+          {
+            "id": "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a#key-1",
+            "type": "Ed25519VerificationKey2020",
+            "controller": "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a",
+            "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEALelgu8ZtjAEkgddJK4NaAcjkZfoYp/yJDwRmRCLu5Qk=\n-----END PUBLIC KEY-----\n"
+          }
+        ],
+        "authentication": [
+          "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a#key-1"
+        ],
+        "assertionMethod": [
+          "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a#key-1"
+        ],
+        "keyAgreement": [
+          "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a#key-1"
+        ],
+        "capabilityInvocation": [
+          "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a#key-1"
+        ],
+        "capabilityDelegation": [
+          "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a#key-1"
+        ],
+        "service": [
+          {
+            "id": "did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a#marketplace-service",
+            "type": "MarketplaceService",
+            "serviceEndpoint": "https://marketplace.veritoken.org/customer/did:veritoken-customer:mainnet:257589cc-3e2b-416e-8df1-857170d3942a"
+          }
+        ],
+        "customerInfo": {
+          "entityType": "customer",
+          "kycLevel": "none",
+          "verificationStatus": {
+            "age": false,
+            "location": false
+          }
+        }
+      },
+      "created": "2025-07-09T20:38:15.528Z",
+      "updated": "2025-07-09T20:38:15.528Z"
+    },
+    {
+      "id": "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6",
+      "method": "veritoken-customer",
+      "network": "mainnet",
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdznCakpve0VNgj5UHIcBxDs/R1bjEzAL7ZfKNNUMfrg=\n-----END PUBLIC KEY-----\n",
+      "document": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          "https://w3id.org/security/suites/ed25519-2020/v1",
+          "https://veritoken.org/marketplace/customer/v1"
+        ],
+        "id": "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6",
+        "controller": "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6",
+        "created": "2025-07-09T20:38:37.927Z",
+        "updated": "2025-07-09T20:38:37.927Z",
+        "verificationMethod": [
+          {
+            "id": "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6#key-1",
+            "type": "Ed25519VerificationKey2020",
+            "controller": "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6",
+            "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdznCakpve0VNgj5UHIcBxDs/R1bjEzAL7ZfKNNUMfrg=\n-----END PUBLIC KEY-----\n"
+          }
+        ],
+        "authentication": [
+          "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6#key-1"
+        ],
+        "assertionMethod": [
+          "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6#key-1"
+        ],
+        "keyAgreement": [
+          "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6#key-1"
+        ],
+        "capabilityInvocation": [
+          "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6#key-1"
+        ],
+        "capabilityDelegation": [
+          "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6#key-1"
+        ],
+        "service": [
+          {
+            "id": "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6#marketplace-service",
+            "type": "MarketplaceService",
+            "serviceEndpoint": "https://marketplace.veritoken.org/customer/did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6"
+          }
+        ],
+        "customerInfo": {
+          "entityType": "customer",
+          "kycLevel": "none",
+          "verificationStatus": {
+            "age": false,
+            "location": false
+          }
+        }
+      },
+      "created": "2025-07-09T20:38:37.927Z",
+      "updated": "2025-07-09T20:38:37.927Z"
+    }
+  ],
+  "credentials": [],
+  "connections": [
+    {
+      "id": "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348",
+      "entityDID": "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348",
+      "connectionType": "business",
+      "established": "2025-07-09T20:38:37.928Z",
+      "status": "active",
+      "permissions": {
+        "shareProfile": false,
+        "receiveCreds": true,
+        "businessTransactions": true
+      }
+    }
+  ]
+}

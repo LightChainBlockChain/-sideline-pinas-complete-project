@@ -1,0 +1,135 @@
+{
+  "walletId": "merchant_wallet_acme",
+  "preferences": {
+    "defaultPrivacyLevel": "selective",
+    "autoAcceptCredentials": false,
+    "enableZeroKnowledgeProofs": true
+  },
+  "dids": [
+    {
+      "id": "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930",
+      "method": "veritoken-merchant",
+      "network": "mainnet",
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKc6KGZLMWiwSV7ku7INt2huYsE555yEpYA3A8x3Z5gw=\n-----END PUBLIC KEY-----\n",
+      "document": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          "https://w3id.org/security/suites/ed25519-2020/v1",
+          "https://veritoken.org/marketplace/merchant/v1"
+        ],
+        "id": "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930",
+        "controller": "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930",
+        "created": "2025-07-09T20:38:15.524Z",
+        "updated": "2025-07-09T20:38:15.527Z",
+        "verificationMethod": [
+          {
+            "id": "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930#key-1",
+            "type": "Ed25519VerificationKey2020",
+            "controller": "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930",
+            "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKc6KGZLMWiwSV7ku7INt2huYsE555yEpYA3A8x3Z5gw=\n-----END PUBLIC KEY-----\n"
+          }
+        ],
+        "authentication": [
+          "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930#key-1"
+        ],
+        "assertionMethod": [
+          "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930#key-1"
+        ],
+        "keyAgreement": [
+          "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930#key-1"
+        ],
+        "capabilityInvocation": [
+          "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930#key-1"
+        ],
+        "capabilityDelegation": [
+          "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930#key-1"
+        ],
+        "service": [
+          {
+            "id": "did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930#marketplace-service",
+            "type": "MarketplaceService",
+            "serviceEndpoint": "https://marketplace.veritoken.org/merchant/did:veritoken-merchant:mainnet:1509342d-11f0-447e-9b09-13514425e930"
+          }
+        ],
+        "merchantInfo": {
+          "entityType": "merchant",
+          "businessName": "ACME Electronics Ltd",
+          "verificationLevel": "unverified",
+          "reputationScore": 0
+        }
+      },
+      "created": "2025-07-09T20:38:15.524Z",
+      "updated": "2025-07-09T20:38:15.527Z"
+    },
+    {
+      "id": "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348",
+      "method": "veritoken-merchant",
+      "network": "mainnet",
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAl7Hn6/3uxAUfZVNeYITqXxuCNAKyMtG0FzCDYvjvCc8=\n-----END PUBLIC KEY-----\n",
+      "document": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          "https://w3id.org/security/suites/ed25519-2020/v1",
+          "https://veritoken.org/marketplace/merchant/v1"
+        ],
+        "id": "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348",
+        "controller": "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348",
+        "created": "2025-07-09T20:38:37.924Z",
+        "updated": "2025-07-09T20:38:37.926Z",
+        "verificationMethod": [
+          {
+            "id": "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348#key-1",
+            "type": "Ed25519VerificationKey2020",
+            "controller": "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348",
+            "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAl7Hn6/3uxAUfZVNeYITqXxuCNAKyMtG0FzCDYvjvCc8=\n-----END PUBLIC KEY-----\n"
+          }
+        ],
+        "authentication": [
+          "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348#key-1"
+        ],
+        "assertionMethod": [
+          "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348#key-1"
+        ],
+        "keyAgreement": [
+          "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348#key-1"
+        ],
+        "capabilityInvocation": [
+          "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348#key-1"
+        ],
+        "capabilityDelegation": [
+          "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348#key-1"
+        ],
+        "service": [
+          {
+            "id": "did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348#marketplace-service",
+            "type": "MarketplaceService",
+            "serviceEndpoint": "https://marketplace.veritoken.org/merchant/did:veritoken-merchant:mainnet:545c5aa2-18f9-4c59-b9ac-068e5d93a348"
+          }
+        ],
+        "merchantInfo": {
+          "entityType": "merchant",
+          "businessName": "ACME Electronics Ltd",
+          "verificationLevel": "unverified",
+          "reputationScore": 0
+        }
+      },
+      "created": "2025-07-09T20:38:37.924Z",
+      "updated": "2025-07-09T20:38:37.926Z"
+    }
+  ],
+  "credentials": [],
+  "connections": [
+    {
+      "id": "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6",
+      "entityDID": "did:veritoken-customer:mainnet:9c606789-9aa2-4f30-b848-31a98904e9b6",
+      "connectionType": "business",
+      "established": "2025-07-09T20:38:37.928Z",
+      "status": "active",
+      "permissions": {
+        "shareProfile": false,
+        "receiveCreds": true,
+        "businessTransactions": true
+      }
+    }
+  ]
+}

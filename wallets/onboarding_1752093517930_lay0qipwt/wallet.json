@@ -1,0 +1,104 @@
+{
+  "walletId": "onboarding_1752093517930_lay0qipwt",
+  "preferences": {
+    "defaultPrivacyLevel": "selective",
+    "autoAcceptCredentials": false,
+    "enableZeroKnowledgeProofs": true
+  },
+  "dids": [
+    {
+      "id": "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1",
+      "method": "veritoken-customer",
+      "network": "mainnet",
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA8Z56akrWuAZrHAFxGMTo2n51iGBez89M0cYW5OORQBc=\n-----END PUBLIC KEY-----\n",
+      "document": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          "https://w3id.org/security/suites/ed25519-2020/v1",
+          "https://veritoken.org/marketplace/customer/v1"
+        ],
+        "id": "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1",
+        "controller": "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1",
+        "created": "2025-07-09T20:38:37.930Z",
+        "updated": "2025-07-09T20:38:37.930Z",
+        "verificationMethod": [
+          {
+            "id": "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1#key-1",
+            "type": "Ed25519VerificationKey2020",
+            "controller": "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1",
+            "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA8Z56akrWuAZrHAFxGMTo2n51iGBez89M0cYW5OORQBc=\n-----END PUBLIC KEY-----\n"
+          }
+        ],
+        "authentication": [
+          "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1#key-1"
+        ],
+        "assertionMethod": [
+          "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1#key-1"
+        ],
+        "keyAgreement": [
+          "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1#key-1"
+        ],
+        "capabilityInvocation": [
+          "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1#key-1"
+        ],
+        "capabilityDelegation": [
+          "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1#key-1"
+        ],
+        "service": [
+          {
+            "id": "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1#marketplace-service",
+            "type": "MarketplaceService",
+            "serviceEndpoint": "https://marketplace.veritoken.org/customer/did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1"
+          }
+        ],
+        "customerInfo": {
+          "entityType": "customer",
+          "kycLevel": "none",
+          "verificationStatus": {
+            "age": false,
+            "location": false
+          }
+        }
+      },
+      "created": "2025-07-09T20:38:37.930Z",
+      "updated": "2025-07-09T20:38:37.932Z"
+    }
+  ],
+  "credentials": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://veritoken.org/marketplace/v1"
+      ],
+      "id": "urn:uuid:61f6193f-343d-4f67-b33c-33c981802e50",
+      "type": [
+        "VerifiableCredential",
+        "CustomerVerification"
+      ],
+      "issuer": "did:veritoken:mainnet:marketplace-authority",
+      "issuanceDate": "2025-07-09T20:38:37.932Z",
+      "credentialSubject": {
+        "id": "did:veritoken-customer:mainnet:a835c4f4-bd63-4e1f-9ed4-af1a12fc5dd1",
+        "ageVerified": true,
+        "locationVerified": true,
+        "identityVerified": true,
+        "kycLevel": "level_1",
+        "verificationDate": "2025-07-09T20:38:37.932Z"
+      },
+      "credentialStatus": {
+        "id": "urn:uuid:61f6193f-343d-4f67-b33c-33c981802e50#status",
+        "type": "RevocationList2020Status",
+        "revocationListIndex": 709094,
+        "revocationListCredential": "did:veritoken:mainnet:marketplace-authority/revocation-list"
+      },
+      "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2025-07-09T20:38:37.932Z",
+        "verificationMethod": "did:veritoken:mainnet:marketplace-authority#key-1",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "simulated_marketplace_authority_signature"
+      }
+    }
+  ],
+  "connections": []
+}

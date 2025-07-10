@@ -1,0 +1,40 @@
+{
+  "name": "sideline-pinas-powered-by-veri-token",
+  "description": "Sideline Pinas powered by Veri Token - Decentralized Marketplace for the Philippines",
+  "version": "2.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "jest",
+    "cli": "node src/cli.js"
+  },
+  "keywords": [
+    "did",
+    "ssi",
+    "marketplace",
+    "identity",
+    "blockchain"
+  ],
+  "author": "VeriToken Team",
+  "license": "MIT",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "ffjavascript": "^0.3.1",
+    "jose": "^4.15.9",
+    "snarkjs": "^0.7.5",
+    "stripe": "^18.3.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
