@@ -1,0 +1,31 @@
+{
+  "network": "hardhat",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "deploymentDate": "2025-07-19T16:42:59.952Z",
+  "contracts": {
+    "VeriToken": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "symbol": "VERI",
+      "name": "VeriToken",
+      "decimals": 18,
+      "initialSupply": "200000000.0",
+      "maxSupply": "5000000000.0"
+    },
+    "LightGovernanceToken": {
+      "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "symbol": "LIGHT",
+      "name": "LightGovernanceToken",
+      "decimals": 18,
+      "totalSupply": "100000000.0"
+    }
+  },
+  "verificationCosts": {
+    "basic_identity": "100.0",
+    "kyc_level_1": "500.0",
+    "kyc_level_2": "1000.0",
+    "kyc_level_3": "2000.0",
+    "business_verification": "1500.0",
+    "product_authenticity": "300.0",
+    "zkp_verification": "200.0"
+  }
+}
